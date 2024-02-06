@@ -65,10 +65,27 @@ This project is licensed under the MIT License. For more details, refer to the [
 
 /// Terraform documentation
 
+
+COMPONENTS :
+
+CONTAINERIZATION WITH DOCKER
+
+TERRAFORM
+
+KUBERNETES --- 
+
+
+# command to run kubernetes on port 5000
+kubectl port-forward deployment/flask-app-deployment 5000:5000
+
+PIPELINES IN AZURE DEVOPS
+
+
 TO DO
 
-ADD GITGNORE 
-
 ADD DOCUMENTATION FOR TERRAFORM
+
+THIS PROJECT IS USING VARIUOUS DEVOPS TOOLS FOR AN APPLICATION THAT IS DOES NOT REQUIRE THAT KIND OF APPROACH 
+BUT IT IS MEANT TO DEMONSTRATE MY SKILLS WITH SAID TOOLS.
 terraform plan -var-file="secret.tfvars"
 terraform apply -var-file="secret.tfvars"

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web-app-devops-project
-          image: mariusteor/web-app-devops-project:v1
+          image: mariusteor/web-app-devops-project:latest
           ports:
           - containerPort: 5000
   strategy:
