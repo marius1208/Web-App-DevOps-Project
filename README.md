@@ -60,3 +60,15 @@ To run the application, you simply need to run the `app.py` script in this repos
 ## License
 
 This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE) file.
+
+
+
+/// Terraform documentation
+
+TO DO
+
+ADD GITGNORE 
+
+ADD DOCUMENTATION FOR TERRAFORM
+terraform plan -var-file="secret.tfvars"
+terraform apply -var-file="secret.tfvars"
