@@ -13,3 +13,12 @@ steps:
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: 'latest'
+
+- task: KubernetesManifest@1
+  inputs:
+    action: 'deploy'
+    connectionType: 'azureResourceManager'
+    azureSubscriptionConnection: 'Marius Radu DevOps(161bfef5-9068-4f3e-aed0-0bc8905e7672)'
+    azureResourceGroup: 'aks-resources'
+    kubernetesCluster: 'Test'
+    manifests: 'application-manifest.yaml'
