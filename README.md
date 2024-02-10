@@ -74,6 +74,10 @@ TERRAFORM
 
 KUBERNETES --- 
 
+AZURE Cluster monitoring and analytics 
+
+Azure Pipeline
+
 
 # command to run kubernetes on port 5000
 kubectl port-forward deployment/flask-app-deployment 5000:5000
@@ -89,3 +93,5 @@ THIS PROJECT IS USING VARIUOUS DEVOPS TOOLS FOR AN APPLICATION THAT IS DOES NOT 
 BUT IT IS MEANT TO DEMONSTRATE MY SKILLS WITH SAID TOOLS.
 terraform plan -var-file="secret.tfvars"
 terraform apply -var-file="secret.tfvars"
+
+ADD DOCUMENTATION
