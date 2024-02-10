@@ -41,7 +41,8 @@ To run the application, you simply need to run the `app.py` script in this repos
 
 ## Technology Stack
 
-- **Backend:**  
+- **Backend:**
+
 Flask is used to build the backend of the application, handling routing, data processing, and interactions with the database.
 
 Terraform is used for managing infrastructure as code. It simplifies the process of building, changing, and versioning infrastructure configurations.
