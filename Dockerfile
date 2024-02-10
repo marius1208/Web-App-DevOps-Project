@@ -37,6 +37,8 @@ EXPOSE 5000
 
 CMD ["python", "app.py"]
 
+
+#How to run Docker independently
 # Start Docker Desktop
 # Run "docker build -t <Image-Name> ."  to build the image
 # Run "docker run -p 5000:5000 <Image-Name>" to run the container
