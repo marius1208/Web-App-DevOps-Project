@@ -9,10 +9,15 @@ I was presented with a simple Flask application and asked to apply DevOps princi
 ## Features
 
 -The basic application allows efficiently managing and tracking orders for a potential business. It provides an intuitive user interface for viewing existing orders and adding new ones. 
+
 -Docker is used to containerize the application. Firstly, an image of the application is created which serves as a template for creating Docker containers. The containers are instances of this image that can be run as isolated envoirements on a host system.
+
 -I am also using Kubernetes to simplify the deployment and management of the containerized application, and enableing to build scalable, resilient, and cloud-native applications more efficiently. To achieve this, I chose to implement infrastructure as code(IaC) using Terraform. 
+
 -In order to automate the processes, I configured a Coninous Integration/Continous Deployment (CI/CD) pipeline using Azure DevOps. The pipeline automates the containerization and deployment process, thus every time a new feature is added to the appication, it will trigger an automatic build of an updated Docker image ,its release to Docker Hub, and the deployment of the updated containers to the Kubernetes cluster.
+
 -I have also used monitoring and alert tools provided by Azure DevOps which assure the effective monitoring and alerting for the AKS cluster while also ensuring that the cluster runs smoothly and potential issues are adressed quickly.
+
 -Additionly, no sensible data is hardcoded into the application. Some sensible data is stored in an Azure Vaut Key and retrieved as neccesary such as server_name,secret_uname, secret_database_name, and secret_server_password used in the main application. Other data such as client_id, client_secret, subscription_id, tenant_id, and public_address are stored loccaly. This also means these variables would need to be given values to run the project succesfully.
 
 ### Prerequisites
