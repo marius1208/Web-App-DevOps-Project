@@ -21,7 +21,6 @@ secret_uname = secret_client.get_secret("Server-Uname").value
 secret_database_name = secret_client.get_secret("Database-Name").value
 secret_server_password = secret_client.get_secret("Server-Password").value
 
-
 # Initialise Flask App
 app = Flask(__name__)
 
