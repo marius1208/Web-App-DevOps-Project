@@ -43,8 +43,10 @@ To run the application, you simply need to run the `app.py` script in this repos
 
 - **Backend:**  
 Flask is used to build the backend of the application, handling routing, data processing, and interactions with the database.
-Terraform is used for managing infrastructure as code. It simplifies the process of building, changing, and versioning infrastructure configurations using a declarative language.
-Azure DevOps Pipelines help to compile, build, and deploy the code.
+
+Terraform is used for managing infrastructure as code. It simplifies the process of building, changing, and versioning infrastructure configurations.
+
+Azure DevOps Pipelines helps to compile, build, and deploy the code.
 
 - **Frontend:** 
 
